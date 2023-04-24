@@ -110,15 +110,15 @@ body * {
   line-height: 2.8rem;
   letter-spacing: -0.02em;
 
-  user-select: none;
-  -webkit-user-select: none;
-
   color: #ebebeb;
-  pointer-events: none;
+
   user-select: none;
   -webkit-user-select: none;
 }
 
+#keyboardd:focus {
+  outline: none;
+}
 #keyboard button[title="Cancelar registro"] {
   color: #e24545;
 }
