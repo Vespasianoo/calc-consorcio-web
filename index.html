@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulação</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+  <div id="root">
+    <div id="display">
+      <div class="calc">
+        <div class="credito selecte" onclick="addOrRemoveClass(this)">Valor do crédito <span></span></div>
+        <div class="entrada" onclick="addOrRemoveClass(this)">Valor da entrada <span></span></div>
+        <div class="meses" onclick="addOrRemoveClass(this)">Quantos meses <span></span></div>
+      </div>
+      <div class="result">
+        <img src="./assets/img/icon.svg" alt="Sinal de igual">
+        <span id="result-display">0</span>
+      </div>
+    </div>
+    <div id="keyboard">
+      <div class="left">
+        <button type="button" title="7">7</button>
+        <button type="button" title="8">8</button>
+        <button type="button" title="9">9</button>
+        <button type="button" title="4">4</button>
+        <button type="button" title="5">5</button>
+        <button type="button" title="6">6</button>
+        <button type="button" title="1">1</button>
+        <button type="button" title="2">2</button>
+        <button type="button" title="3">3</button>
+        <button type="button" title="Cancelar registro">CE</button>
+        <button type="button" title="0">0</button>
+        <button type="button" title="vírgula">,</button>
+      </div>
+      <div class="right">
+        <button type="button" title="Limpar">C</button>
+        <button type="button" title="Igual">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
