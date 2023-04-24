@@ -23,9 +23,9 @@ body * {
   font-family: "Inter", sans-serif;
 }
 
-#root {
+/* #root {
   padding: 5.4rem 3.2rem 3.2rem;
-}
+} */
 
 #display {
   padding-inline: 1.8rem 2.2rem;
