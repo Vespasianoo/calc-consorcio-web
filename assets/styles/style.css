@@ -111,17 +111,20 @@ body * {
   letter-spacing: -0.02em;
 
   color: #ebebeb;
+  outline: none;
 
   user-select: none;
-  -webkit-user-select: none;
 }
 
-#keyboardd:focus {
-  outline: none;
-}
 #keyboard button[title="Cancelar registro"] {
   color: #e24545;
 }
 #keyboard button:active {
+  user-select: none;
   opacity: 0.5;
+  outline: none;
+}
+#keyboard:focus {
+  user-select: none;
+  outline: none;
 }
