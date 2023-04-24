@@ -16,6 +16,7 @@ body {
   display: grid;
   place-content: center;
   background: #1c1b1e;
+  overflow: hidden;
 }
 
 body * {
@@ -113,6 +114,9 @@ body * {
   -webkit-user-select: none;
 
   color: #ebebeb;
+  pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 #keyboard button[title="Cancelar registro"] {
